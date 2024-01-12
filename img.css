@@ -1,0 +1,43 @@
+/*
+  <img>
+    
+     - src
+     - alt
+     - title
+     - width
+     - height
+     - adicionando link
+
+*/
+
+<a href="https://rocketseat.com.br">
+
+
+Via html=
+
+/*
+
+<img
+
+   src="https://rocketseat.com.br/icons/icon-48x48.png" 
+   alt="Imagem RocketSeat"
+   title="Imagem do Curso da RocketSeat"  height="50px"
+
+>
+
+</a>
+
+*/
+
+Via css =
+
+<!--
+
+background-image
+
+ - com a tag style
+ - somente para o estilo
+ - não é semantico e falta significado
+
+-->
+<p style="background-image: url()"> Imagem </p> 
