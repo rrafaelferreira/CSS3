@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        /*declaracoes gerais*/
+            *{
+                padding: 0px;
+                margin: 0px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            html, body {
+                width: 100vw;
+                height: 100vh;
+                background-color: #233eff;
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+
+            h1 {
+                color: white;
+                text-shadow: 2px 2px 0px #1526a7;
+                padding: 10px;
+            }
+
+        /*declaracoes retrato*/
+            @media screen and (orientation: portrait) {
+                body {
+                    background-image: url(../imagens/cev-portrait.jpg);
+                    background-position: center bottom; /*Ficar grudado no centro e na parte de baixo do site*/
+                }    
+            }
+
+        /*declaracoes paisagem*/
+            @media screen and (orientation: landscape) {
+                body {
+                    background-image: url(../imagens/cev-landscape.jpg);
+                    background-position: left bottom; /*Ficar grudado no canto esquerdo e na parte de baixo do site*/
+                }
+            }
+
+    </style>
+</head>
+<body>
+    <h1>Mude a orientação do seu dispositivo</h1>
+</body>
+</html>
+
+
+
+
+<!--
+
+Media Query = Media Type + Media Firyus
+
+Media Type = Tipos de midia 
+Ex: Screen
+
+Media Query = Caracteristica de midia - São escritas entre parenteses ()
+Ex : Orientation ; Landscape 
+
+-->
